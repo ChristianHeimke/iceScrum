@@ -37,6 +37,9 @@
         <script src="${resource(dir: 'js/timeline/timeline_js', file: 'timeline-api.js?bundle=true')}"
                 type="text/javascript"></script>
         <script src="${resource(dir: 'js/timeline', file: 'icescrum-painter.js')}" type="text/javascript"></script>
+
+
+
     </sec:ifLoggedIn>
     <r:layoutResources/>
     <g:layoutHead/>

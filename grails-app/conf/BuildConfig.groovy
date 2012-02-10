@@ -35,12 +35,10 @@ grails.project.war.file = "target/${appName}.war"
 
 grails.project.war.osgi.headers = false
 
-if (environment != Environment.PRODUCTION){
-    println "use inline plugin in env: ${environment}"
-    grails.plugin.location.'icescrum-core' = '../plugins/icescrum-core'
-    //grails.plugin.location.'entry-points' =  '../plugins/entry-points'
-}
 
+    println "use inline plugin in env: ${environment}"
+    grails.plugin.location.'icescrum-core' = '../iceScrum-core'
+    //grails.plugin.location.'entry-points' =  '../plugins/entry-points'
 coverage {
     enabledByDefault = false
     xml = true

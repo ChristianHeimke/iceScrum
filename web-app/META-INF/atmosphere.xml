@@ -1,0 +1,3 @@
+<atmosphere-handlers>
+  <atmosphere-handler context-root='/stream/app/*' class-name='org.icescrum.atmosphere.IceScrumAtmosphereHandler' broadcaster='org.atmosphere.util.ExcludeSessionBroadcaster' />
+</atmosphere-handlers>

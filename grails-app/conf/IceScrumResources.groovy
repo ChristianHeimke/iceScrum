@@ -31,7 +31,9 @@ modules = {
         }
     }
 
+
     'app-css' {
+
         resource url: [dir: "themes/$icescrum.theme/css", file: 'reset.css'], attrs: [media: 'screen,projection'], bundle: 'icescrum'
         resource url: [dir: "themes/$icescrum.theme/css", file: 'checkbox.css'], attrs: [media: 'screen,projection'], bundle: 'icescrum'
         resource url: [dir: "themes/$icescrum.theme/css", file: 'styles.css'], attrs: [media: 'screen,projection'], bundle: 'icescrum'
@@ -45,6 +47,7 @@ modules = {
         resource url: [dir: "themes/$icescrum.theme/css", file: 'ie/ie8.css'], attrs: [media: 'screen,projection'], wrapper: { s -> "<!--[if IE 8]>$s<![endif]-->" }
         resource url: [dir: "themes/$icescrum.theme/css", file: 'ie/ie7.css'], attrs: [media: 'screen,projection'], wrapper: { s -> "<!--[if IE 7]>$s<![endif]-->" }
         resource url: [dir: "themes/$icescrum.theme/css", file: 'ie/ie6.css'], attrs: [media: 'screen,projection'], wrapper: { s -> "<!--[if IE 6]>$s<![endif]-->" }
+        resource url: [dir: "css", file: 'storycards.css'], attrs: [media: 'screen,projection'], bundle: 'icescrum'
         resource url: [dir: "js/jquery", file: 'jqplot/css/jquery.jqplot.min.css'], attrs: [media: 'screen,projection'], undle: 'icescrum'
     }
 
