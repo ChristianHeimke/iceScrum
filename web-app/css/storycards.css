@@ -309,17 +309,17 @@
   width: 10px;
 }
 
-.story-footer.without-paper-clip .paper-clip {
-  display: none;
+.story-footer .paper-clip {
+  display: block;
+  float:left;
 }
 
-.story-footer.without-speech-bubble .speech-bubble {
-  display: none;
+.story-footer .speech-bubble {
+  display: block;
+float:left;
 }
 
-.story-footer.without-speech-bubble .paper-clip {
-  left: 0px;
-}
+
 
 .story-footer .button-make {
   background: url("../images/stories/button_make.png") no-repeat center center;
@@ -367,7 +367,7 @@
   border: 1px solid #257ca4;
 }
 
-.story.grey {
+.story.gray {
   background: url("../images/stories/grey_pattern.png") repeat center center, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f0f0f0), color-stop(1%, #d7d7d7), color-stop(100%, #b8b8b8));
   background: url("../images/stories/grey_pattern.png") repeat center center, -webkit-linear-gradient(#f0f0f0, #d7d7d7 1%, #b8b8b8);
   background: url("../images/stories/grey_pattern.png") repeat center center, -moz-linear-gradient(#f0f0f0, #d7d7d7 1%, #b8b8b8);
@@ -387,7 +387,7 @@
   border: 1px solid #b85f5f;
 }
 
-.story.lemon {
+.story.green {
   background: url("../images/stories/lemon_pattern.png") repeat center center, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff9d4), color-stop(1%, #ffec6f), color-stop(100%, #f5d816));
   background: url("../images/stories/lemon_pattern.png") repeat center center, -webkit-linear-gradient(#fff9d4, #ffec6f 1%, #f5d816);
   background: url("../images/stories/lemon_pattern.png") repeat center center, -moz-linear-gradient(#fff9d4, #ffec6f 1%, #f5d816);
@@ -407,7 +407,7 @@
   border: 1px solid #a47510;
 }
 
-.story.sky {
+.story.bluelight {
   background: url("../images/stories/sky_pattern.png") repeat center center, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e3f6ff), color-stop(1%, #b8e9ff), color-stop(100%, #8aceed));
   background: url("../images/stories/sky_pattern.png") repeat center center, -webkit-linear-gradient(#e3f6ff, #b8e9ff 1%, #8aceed);
   background: url("../images/stories/sky_pattern.png") repeat center center, -moz-linear-gradient(#e3f6ff, #b8e9ff 1%, #8aceed);
@@ -427,7 +427,7 @@
   border: 1px solid #739126;
 }
 
-.story.purple {
+.story.pink {
   background: url("../images/stories/purple_pattern.png") repeat center center, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eedfff), color-stop(1%, #d6b0ff), color-stop(100%, #b38ae0));
   background: url("../images/stories/purple_pattern.png") repeat center center, -webkit-linear-gradient(#eedfff, #d6b0ff 1%, #b38ae0);
   background: url("../images/stories/purple_pattern.png") repeat center center, -moz-linear-gradient(#eedfff, #d6b0ff 1%, #b38ae0);
@@ -437,7 +437,7 @@
   border: 1px solid #8158af;
 }
 
-.story.flieder {
+.story.violet {
   background: url("../images/stories/flieder_pattern.png") repeat center center, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f3ff), color-stop(1%, #ebd7ff), color-stop(100%, #d6b0ff));
   background: url("../images/stories/flieder_pattern.png") repeat center center, -webkit-linear-gradient(#f9f3ff, #ebd7ff 1%, #d6b0ff);
   background: url("../images/stories/flieder_pattern.png") repeat center center, -moz-linear-gradient(#f9f3ff, #ebd7ff 1%, #d6b0ff);

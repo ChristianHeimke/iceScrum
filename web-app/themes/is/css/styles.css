@@ -708,8 +708,8 @@ li#li-roles {
 .view-postit .postit, .view-postit .postit-placeholder {
     float: left;
     margin: 1px;
-    width: 153px;
-    height: 129px;
+    width: 170px;
+    height: 190px;
 }
 
 .view-postit .postit-placeholder {
@@ -742,8 +742,8 @@ li#li-roles {
     display: block;
     margin: 0;
     padding: 0;
-    width: 140px;
-    height: 95px;
+    width: 152px;
+    height: 175px;
     text-align: center;
     position: relative;
     padding-top: 18px;
@@ -812,42 +812,6 @@ li#li-roles {
     left: 120px;
 }
 
-.postit .postit-yellow {
-    background-position: 0 0;
-}
-
-.postit .postit-blue {
-    background-position: -140px 0;
-}
-
-.postit .postit-orange {
-    background-position: -280px 0;
-}
-
-.postit .postit-green {
-    background-position: -420px 0;
-}
-
-.postit .postit-pink {
-    background-position: -560px 0;
-}
-
-.postit .postit-violet {
-    background-position: -700px 0;
-}
-
-.postit .postit-gray {
-    background-position: -840px 0;
-}
-
-.postit .postit-red {
-    background-position: -980px 0;
-}
-
-.postit .postit-bluelight {
-    background-position: -1120px 0;
-}
-
 .postit-feature .postit-excerpt {
     padding-top: 6px;
 }
@@ -863,7 +827,7 @@ li#li-roles {
 */
 
 .postit-rect {
-    width: 140px;
+    width: 152px;
     height: 75px;
     margin: 1px;
     padding: 6px 6px 8px 7px;
@@ -906,45 +870,6 @@ li#li-roles {
     white-space: nowrap;
 }
 
-.postit-rect .postit-yellow {
-    background-position: 0 0;
-}
-
-.postit-rect .postit-blue {
-    background-position: -140px 0;
-}
-
-.postit-rect .postit-orange {
-    background-position: -280px 0;
-}
-
-.postit-rect .postit-green {
-    background-position: -420px 0;
-}
-
-.postit-rect .postit-pink {
-    background-position: -560px 0;
-}
-
-.postit-rect .postit-violet {
-    background-position: -700px 0;
-}
-
-.postit-rect .postit-gray {
-    background-position: -840px 0;
-}
-
-.postit-rect .postit-red {
-    background-position: -980px 0;
-}
-
-.postit-rect .postit-bluelight {
-    background-position: -1120px 0;
-}
-
-.postit-rect .state .text-state, .scrum-link {
-    font-weight: bold;
-}
 
 /*
 /////////////////////////////////////////
@@ -1407,7 +1332,7 @@ li#li-roles {
 .kanban .postit-placeholder {
     display: block;
     width: 153px;
-    height: 89px;
+    height: 175px;
     margin: 0;
     border-width: 1px;
     float: left;

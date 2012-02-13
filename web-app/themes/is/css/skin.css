@@ -169,10 +169,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.dropmenu-action .dropmenu-arrow {
-    background-image: url(../images/application/arrow-bullet.png);
-    background-repeat: no-repeat;
-}
 
 .box .box-navigation ul .search .search-button, #dropmenu .search-content,
 #dropmenu .search-content input {
